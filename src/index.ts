@@ -1,4 +1,5 @@
-import './05DataType'
+// import './05DataType'
+import './06enum'
 
 let hello: string = 'hello world'
 document.querySelectorAll('.app')[0].innerHTML = hello
