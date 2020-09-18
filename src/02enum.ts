@@ -77,3 +77,7 @@ let e2: E.b
 // e1 === e2 // false 不同类型的枚举成员不能进行比较
 let e3: E.a = 1
 e1 === e3 // true 相同类型的枚举成员能进行比较
+
+
+let g1: G = G.a
+let g2: G.a = G.a
