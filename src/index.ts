@@ -1,6 +1,7 @@
 // import './01DataType'
 // import './02enum'
 // import './03interface'
+import './04interface';
 
 let hello: string = 'hello world'
 document.querySelectorAll('.app')[0].innerHTML = hello
