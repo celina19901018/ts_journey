@@ -6,6 +6,7 @@
 // import './06class'
 // import './07class'
 // import './08class-interface'
+import './09generics'
 
 let hello: string = 'hello world'
 document.querySelectorAll('.app')[0].innerHTML = hello
