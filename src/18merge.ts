@@ -43,9 +43,8 @@ console.log(Fib.state)
 
 // 命名空间与枚举的合并
 enum Color {
-  red,
-  blue,
-  green
+  Blue,
+  Green
 }
 namespace Color {
   export function mix() { }

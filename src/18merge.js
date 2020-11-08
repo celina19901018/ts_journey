@@ -1,3 +1,14 @@
+var interfaceA = {
+    x: 1,
+    y: 1,
+    foo: function (bar) {
+        return bar;
+    }
+};
+// 注意：接口中定义的函数，就是这个函数重载的列表。
+// 在接口内部，函数重载的顺序就是书写的顺序；
+// 而在接口之间呢？后面的接口会排在前面。
+// 注意：有个例外，如果函数的参数是一个字符字面量的话，函数声明会提升到最顶端
 // 命名空间与函数的合并
 function Lib() { }
 (function (Lib) {
@@ -18,9 +29,8 @@ console.log(Fib.state);
 // 命名空间与枚举的合并
 var Color;
 (function (Color) {
-    Color[Color["red"] = 0] = "red";
-    Color[Color["blue"] = 1] = "blue";
-    Color[Color["green"] = 2] = "green";
+    Color[Color["Blue"] = 0] = "Blue";
+    Color[Color["Green"] = 1] = "Green";
 })(Color || (Color = {}));
 (function (Color) {
     function mix() { }
