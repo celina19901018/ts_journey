@@ -9,10 +9,13 @@
 // import './09generics'
 // import './10generics'
 // import './14advance'
-import './15advance'
+// import './15advance'
+// import './namespace/a'
+// import './namespace/b'
 
-let hello: string = 'hello world'
-document.querySelectorAll('.app')[0].innerHTML = hello
+
+// let hello: string = 'hello world'
+// document.querySelectorAll('.app')[0].innerHTML = hello
 
 
 // interface SquareConfig {
@@ -36,3 +39,6 @@ document.querySelectorAll('.app')[0].innerHTML = hello
 // document.querySelectorAll('.app')[0].innerHTML = mySquare.color;
 
 // console.log(mySquare)
+
+
+// import './es6/c'
