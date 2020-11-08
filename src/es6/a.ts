@@ -8,7 +8,7 @@ export { b, c }
 
 // 导出接口
 export interface P {
-  x: number,
+  x: number;
   y: number
 }
 

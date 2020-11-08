@@ -14,7 +14,7 @@ let obj = {
 
 // 一、keyof T :类型T的所有公共属性的字面量的联合类型
 interface Obj {
-  a: number,
+  a: number;
   b: string
 }
 let key: keyof Obj

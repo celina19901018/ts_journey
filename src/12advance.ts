@@ -1,12 +1,12 @@
 // X 兼容 Y : X（目标类型）= Y（源类型）
 interface X {
-  a: any,
+  a: any;
   b: any
 }
 
 interface Y {
-  a: any,
-  b: any,
+  a: any;
+  b: any;
   c: any
 }
 
@@ -50,13 +50,13 @@ let handler3 = (a: string) => { }
 
 
 interface Point3D {
-  x: number,
-  y: number,
+  x: number;
+  y: number;
   z: number
 }
 
 interface Point2D {
-  x: number,
+  x: number;
   y: number
 }
 

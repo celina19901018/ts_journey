@@ -1,7 +1,7 @@
 // 1、类实现接口
 interface Human {
   // new(name: string): void
-  name: string,
+  name: string;
   eat(): void
 }
 

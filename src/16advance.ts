@@ -1,8 +1,8 @@
 // 映射类型
 
 interface Obj {
-  a: number,
-  b: string,
+  a: number;
+  b: string;
   c: boolean
 }
 

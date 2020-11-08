@@ -20,8 +20,8 @@ let add: B | C = (a, b) => a + b;
 
 // 混合类型的接口
 interface Lib {
-  (): void,
-  version: string,
+  (): void;
+  version: string;
   doSomething(): void
 }
 

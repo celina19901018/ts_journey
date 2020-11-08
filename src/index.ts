@@ -12,6 +12,7 @@
 // import './15advance'
 // import './namespace/a'
 // import './namespace/b'
+import './18merge'
 
 
 // let hello: string = 'hello world'

@@ -50,17 +50,17 @@ function getPet(master: Master) {
 // 可区分的联合类型，实质上是结合了联合类型与字面量类型的一个类型保护方法
 // 核型思想：一个类型如果是多个类型的联合类型，并且每个类型之间如果有共有的属性，我们可以凭借公共属性创建不同的类型保护区块
 interface Square {
-  kind: 'square',
+  kind: 'square';
   size: number
 }
 
 interface Rectangle {
-  kind: 'rectangle',
-  width: number,
+  kind: 'rectangle';
+  width: number;
   height: number
 }
 interface Circle {
-  kind: 'circle',
+  kind: 'circle';
   r: number
 }
 
